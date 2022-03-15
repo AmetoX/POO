@@ -1,0 +1,13 @@
+﻿Creati un tip abstract de date care sa implementeze o siva.
+Interfata publica pe care sa le ofere programul sunt:
+-push
+-pop(elimina un element din stiva)
+-peek
+-capacity respectiv size
+
+In varianta 1 a aplicatiei scrieti o stiva care va lasa sa folositi numai nr intregi.
+Structura de date interna folosita pt stocarea valorilor va fi un tablou unidimensional, 
+care v-a avea o capacitate initiala.
+Cand stiva este plina si trebe introdus un nou element , capacitatea stivei se va dubla .
+Cand capacitatea stivei este de 4 ori mai mare decat numarul efectiv de elemente din stiva, 
+capacitatea stivei se injumatateste.
