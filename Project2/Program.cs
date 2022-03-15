@@ -51,13 +51,13 @@ namespace Project2
 
             //Peek
             s.Push(42);
-            Console.WriteLine();
-            Console.WriteLine(s.Peek());
-            Console.WriteLine();
+            Console.WriteLine($"Numarul de elemente din stiva este: {s.Count}");
+            Console.WriteLine($"Elementul din varful stivei este {s.Peek()}");
+            Console.WriteLine($"Numarul de elemente din stiva este: {s.Count}");
 
 
 
-            
+
         }
     }
 }
