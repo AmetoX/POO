@@ -17,22 +17,25 @@ namespace Project2
             data = new int[_capacity];
         }
 
-        internal void Push(int v)
+        internal void Push(int val)
         {
+            Console.WriteLine($"Se adauga valoarea {val} in stiva");
             if (_count < _capacity)
             {
-                data[_count] = v;
+                data[_count] = val;
                 _count++;
             }
             else
             {
-                _capacity*=2;
+                _capacity *= 2;
                 int [] vs = new int[_capacity];
                 for(int i = 0; i < _count; i++)
                 {
                     vs[i] = data[i];
                 }
                 data = vs;
+                data[_count] = val;
+                _count++;
             }
         }
     }

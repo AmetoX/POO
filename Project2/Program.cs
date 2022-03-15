@@ -8,6 +8,7 @@ namespace Project2
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
             MyStack s = new MyStack();
@@ -19,7 +20,15 @@ namespace Project2
                                         : "In stiva sunt elemente.");
 
             Console.WriteLine($"Capacitatea stivei este: {s.Capacity} ");
-            Console.WriteLine($"Numarul de elemente din stiva este: {s.Count}")
+            Console.WriteLine($"Numarul de elemente din stiva este: {s.Count}");
+            
+            Random rnd = new Random();
+            for (int i = 0; i < 42; i++)
+            {
+                s.Push(rnd.Next(100));
+            }
+            Console.WriteLine($"Capacitatea stivei este: {s.Capacity} ");
+            Console.WriteLine($"Numarul de elemente din stiva este: {s.Count}");
         }
     }
 }
