@@ -12,8 +12,9 @@ namespace Project2
         static void Main(string[] args)
         {
             MyStack s = new MyStack();
+            //Push
             Console.WriteLine(s.IsEmpty ? "Stiva nu contine nici un elemnt."
-                            : "In stiva sunt elemente.");
+                                        : "In stiva sunt elemente.");
             s.Push(1);
 ;
             Console.WriteLine(s.IsEmpty ? "Stiva nu contine nici un elemnt." 
@@ -30,12 +31,14 @@ namespace Project2
             Console.WriteLine($"Capacitatea stivei este: {s.Capacity} ");
             Console.WriteLine($"Numarul de elemente din stiva este: {s.Count}");
 
+            //Pop
             Console.WriteLine("Dumping stack:");
             while (!s.IsEmpty)
             {
                 Console.Write($"{s.Pop()} ");
             }
             Console.WriteLine();
+            
             try
             {
                 s.Pop();
@@ -45,6 +48,16 @@ namespace Project2
 
                 Console.WriteLine(ex.Message);
             }
+
+            //Peek
+            s.Push(42);
+            Console.WriteLine();
+            Console.WriteLine(s.Peek());
+            Console.WriteLine();
+
+
+
+            
         }
     }
 }

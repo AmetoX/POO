@@ -1,5 +1,8 @@
 ﻿using System;
 
+//TODO adaugati operatiile contains si clear
+//(contains verifica daca in stiva exista o valoare).
+
 namespace Project2
 {
     internal class MyStack
@@ -50,6 +53,15 @@ namespace Project2
             {
                 throw new StackEmptyException("S-a incercat eliminarea unui element dintr-o stiva goala.");
             }
+        }
+
+        internal int Peek()
+        {
+            if (IsEmpty)
+            {
+                throw new StackEmptyException();
+            }
+            return data[_count];
         }
     }
 }
