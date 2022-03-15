@@ -8,7 +8,7 @@ namespace Project2
 {
     internal class Program
     {
-        
+        //Stiva
         static void Main(string[] args)
         {
             MyStack s = new MyStack();
@@ -29,6 +29,22 @@ namespace Project2
             }
             Console.WriteLine($"Capacitatea stivei este: {s.Capacity} ");
             Console.WriteLine($"Numarul de elemente din stiva este: {s.Count}");
+
+            Console.WriteLine("Dumping stack:");
+            while (!s.IsEmpty)
+            {
+                Console.Write($"{s.Pop()} ");
+            }
+            Console.WriteLine();
+            try
+            {
+                s.Pop();
+            }
+            catch (StackEmptyException ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
