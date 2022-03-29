@@ -1,0 +1,23 @@
+
+-creati un tip de date care sa modeleze conceptul de nr rational(nr care poate fi scris sub forma de fractie A supra B).
+-operatii care trebuie implementate:
+	-initializare(se vor crea mai multi constructori, cel putin un construnctor trebuie sa primeasca 2 parametri(numarator si numitor)
+	,vom avea si un constructor care va primi ca paramtru un string care v-a contine reprezentarea textuala a unui nr rational)
+	-suprascrierea metodei tostring care ne va da o reprezentare textuala a nr.
+	-va trebui determinarea textuala a egalitatii a 2 nr rationale.
+	-se vor supra incarca operatorii aritmetici(operator open loading)(operatorii +, -, /, *, 
+	dar si operatorii relationali >, < ,>= ,<= , se va supraincarca operatorul de egalitate si inegalitate)(how to compare/equate 2 objs in c#).
+	-fractia sa fie ireductibila.
+
+
+A      C               A + C
+--- + ----- =          ------  
+B      D      if(B==D)   B     else(cmmdc)
+ 
+A      C      A * C    E     while %2 =0 2 %3 =0  ovveridetostring =    E     |  E supra F
+--- * ----- = ------ = ---                                            ----
+B      D      B * D	F                                                   F
+
+A      C        A       D
+--- / ----- = ------ * -----
+B      D        B       C
