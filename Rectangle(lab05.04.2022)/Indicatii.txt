@@ -1,0 +1,32 @@
+﻿-Rectangle-
+
+Creati o structura de date care sa defineasca un dreptunghi cu atribuitiile:
+	-un punct care reprezinta coordonatele stanga sus.
+	-lungimea si latimea.
+
+Incepem cu construnctorii(sa initializeze clasa).
+	-dam ca si parametru un puct, lungimea si latimea(3 parametri).
+	-constructor cu 4 parametri(x,y,lungime,latime).
+	-constructor cu 2 parametri(lungimea si latimea(x=0,y=0)).
+	-constructor fara parametri va pune toate valorile pe 0.
+
+Operatii banale:
+	-Arie.
+	-Perimetru.
+
+Trebuie sa cream o interfata.
+Determinarea daca un punct este in ineriorul dreptunghiului(functie bool)(parametru punctul pe care il cautam).
+
+-----part2-----
+
+Daca mai este un alt dreptunghi.
+
+0.Daca dreptunghiurile nu se suprapun deloc (nu sunt disjuncte).
+1.Programul ar trebui sa raspunda daca is 2 dreptunghiuri identice( sa verifice punctele daca sunt identice.).
+2.Functie intersec(daca cele 2 dreptughiuri se intersecteaza
+	-va returna dreptunghiul format din intersectia celor doua.). 
+3.O alta situatie: daca dreptunghiul contine alt dreptunghi inautru.
+
+Vom suprascrie metoda toString si isEquals, 
+	-la fel si metoda GetHashCode(este un nr intreg,o amprenta a obiectului respectiv).	
+		(how to override.)

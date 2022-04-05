@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project3_lab22._03_
 {
-    internal partial class Point
+    public class Point
     {
         #region Properties
         public double X { get; set; }

@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "..\Project2\Pro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project3(lab22.03)", "..\Project3(lab22.03)\Project3(lab22.03).csproj", "{00F49C36-4D86-4D65-A30F-F8F4DEF7F82D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nr.Rationale(03.29)", "..\Nr.Rationale(03.29)\Nr.Rationale(03.29).csproj", "{052ACCD3-11E8-4EA0-9863-D73516875A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nr.Rationale(03.29)", "..\Nr.Rationale(03.29)\Nr.Rationale(03.29).csproj", "{052ACCD3-11E8-4EA0-9863-D73516875A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nr.Rationale(03.29)Tests", "..\Nr.Rationale(03.29)Tests\Nr.Rationale(03.29)Tests.csproj", "{A0EBF45E-9DDF-446E-9CDA-56D7A6EEA5FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nr.Rationale(03.29)Tests", "..\Nr.Rationale(03.29)Tests\Nr.Rationale(03.29)Tests.csproj", "{A0EBF45E-9DDF-446E-9CDA-56D7A6EEA5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle_Lab05_04", "..\Rectangle_Lab05_04\Rectangle_Lab05_04.csproj", "{031467B9-F154-43BC-8D33-389E36BA885F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A0EBF45E-9DDF-446E-9CDA-56D7A6EEA5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EBF45E-9DDF-446E-9CDA-56D7A6EEA5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0EBF45E-9DDF-446E-9CDA-56D7A6EEA5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031467B9-F154-43BC-8D33-389E36BA885F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031467B9-F154-43BC-8D33-389E36BA885F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031467B9-F154-43BC-8D33-389E36BA885F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031467B9-F154-43BC-8D33-389E36BA885F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
