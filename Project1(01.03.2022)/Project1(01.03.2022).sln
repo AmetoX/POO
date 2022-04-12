@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nr.Rationale(03.29)", "..\N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nr.Rationale(03.29)Tests", "..\Nr.Rationale(03.29)Tests\Nr.Rationale(03.29)Tests.csproj", "{A0EBF45E-9DDF-446E-9CDA-56D7A6EEA5FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle_Lab05_04", "..\Rectangle_Lab05_04\Rectangle_Lab05_04.csproj", "{031467B9-F154-43BC-8D33-389E36BA885F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangle_Lab05_04", "..\Rectangle_Lab05_04\Rectangle_Lab05_04.csproj", "{031467B9-F154-43BC-8D33-389E36BA885F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_12_04", "..\Lab_12_04\Lab_12_04.csproj", "{A8714D2E-D7A6-4A7E-8A71-1CFFF09A62B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{031467B9-F154-43BC-8D33-389E36BA885F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{031467B9-F154-43BC-8D33-389E36BA885F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{031467B9-F154-43BC-8D33-389E36BA885F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8714D2E-D7A6-4A7E-8A71-1CFFF09A62B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8714D2E-D7A6-4A7E-8A71-1CFFF09A62B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8714D2E-D7A6-4A7E-8A71-1CFFF09A62B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8714D2E-D7A6-4A7E-8A71-1CFFF09A62B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
