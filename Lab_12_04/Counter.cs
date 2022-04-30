@@ -1,7 +1,7 @@
 ﻿internal class Counter
 {
-    private string id;
-    private int count;
+    protected string id;
+    protected int count;
     private Counter? nextCounter;
 
     public Counter? NextCounter

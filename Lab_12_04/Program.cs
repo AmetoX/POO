@@ -35,7 +35,7 @@ Console.WriteLine();
 
 MultiCounter mc = new MultiCounter(4);
 
-for(int i = 0; i < 10000; i++)
+for(int i = 0; i < 10; i++)
 {
     mc.Increment();
     Console.WriteLine(mc);
