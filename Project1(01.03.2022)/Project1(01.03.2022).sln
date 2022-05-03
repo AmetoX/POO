@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangle_Lab05_04", "..\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_12_04", "..\Lab_12_04\Lab_12_04.csproj", "{A8714D2E-D7A6-4A7E-8A71-1CFFF09A62B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction_19_04", "..\Transactions_19_04\Transaction_19_04.csproj", "{F31534C2-C5DC-4098-9DC6-B2B616C82C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transaction_19_04", "..\Transactions_19_04\Transaction_19_04.csproj", "{F31534C2-C5DC-4098-9DC6-B2B616C82C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Union_Find", "..\Union_Find\Union_Find.csproj", "{723EABB8-9CC9-4546-80DC-F4364398043B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F31534C2-C5DC-4098-9DC6-B2B616C82C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F31534C2-C5DC-4098-9DC6-B2B616C82C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F31534C2-C5DC-4098-9DC6-B2B616C82C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723EABB8-9CC9-4546-80DC-F4364398043B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723EABB8-9CC9-4546-80DC-F4364398043B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723EABB8-9CC9-4546-80DC-F4364398043B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723EABB8-9CC9-4546-80DC-F4364398043B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

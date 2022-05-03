@@ -7,7 +7,7 @@ using System.Globalization;
 
 namespace Transaction_19_04
 {
-    internal class Transaction: IComparable<Transaction>
+    public class Transaction: IComparable<Transaction>
     {
         private string nume;
         private Date data;
@@ -31,7 +31,7 @@ namespace Transaction_19_04
         public string Nume => nume;
         public Date date => data;
         public double Suma => suma;
-        +-*
+        
         public override string ToString()
         {
             return string.Format("{0,-20} {1,10} {2,10:F2}", nume, data, suma);
