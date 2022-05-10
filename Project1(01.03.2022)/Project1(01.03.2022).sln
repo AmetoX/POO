@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transaction_19_04", "..\Tra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Union_Find", "..\Union_Find\Union_Find.csproj", "{723EABB8-9CC9-4546-80DC-F4364398043B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structura_date_Fifo", "..\Structura_date_Fifo\Structura_date_Fifo.csproj", "{6CF6D2B3-1006-437F-8C95-662B9EA35F36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{723EABB8-9CC9-4546-80DC-F4364398043B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{723EABB8-9CC9-4546-80DC-F4364398043B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{723EABB8-9CC9-4546-80DC-F4364398043B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF6D2B3-1006-437F-8C95-662B9EA35F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF6D2B3-1006-437F-8C95-662B9EA35F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF6D2B3-1006-437F-8C95-662B9EA35F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF6D2B3-1006-437F-8C95-662B9EA35F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
