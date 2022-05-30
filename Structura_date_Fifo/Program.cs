@@ -5,9 +5,9 @@ using Structura_date_Fifo;
 
 
 MyQueue q1 = new MyQueue();
-q1.Enqueue(1);
-q1.Enqueue(2);
-q1.Enqueue(3);
+q1.Enqueue(7);
+q1.Enqueue(8);
+q1.Enqueue(9);
 Console.WriteLine($"Numarul de elemnte din coada este: {q1.Count}");
 while (!q1.Empty)
 {
